@@ -28,12 +28,11 @@ public class BaseTest {
         driver.get(AVIC_URL);
     }
 
-    /*@AfterMethod
+    @AfterMethod
     public void tearDown() {
 
         driver.quit();
     }
-*/
     public WebDriver getDriver() {
         return driver;
     }
